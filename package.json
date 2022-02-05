@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "npx nodemon main.js"
+  }
+}
