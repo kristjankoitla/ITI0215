@@ -5,7 +5,7 @@ const PORT = process.env.PORT ? process.env.PORT : 80;
 
 const requestListener = async (req, res) => {
     const decodedUrl = decodeURI(req.url);
-    console.log(`${req.method} ${decodedUrl}`);
+    // console.log(`${req.method} ${decodedUrl}`);
 
     if (!["GET", "POST"].includes(req.method)) {
         res.writeHead(405, "Method Not Allowed");
